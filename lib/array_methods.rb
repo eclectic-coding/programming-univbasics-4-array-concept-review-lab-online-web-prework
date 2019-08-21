@@ -18,6 +18,7 @@ def find_max_value(array)
       value = array[counter]
     else 
       counter += 1 
+    end
   end
 end
 
