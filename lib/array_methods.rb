@@ -13,11 +13,10 @@ def find_max_value(array)
   counter = 0
   value = 0
   while counter < array.length do
-    if array[counter] > value
+    array[counter] > value
+      value = array[counter]
       counter += 1 
-    else
-      return counter
-    end
+    
   end
 end
 
